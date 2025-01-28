@@ -28,6 +28,6 @@ example:
 curl -X POST "http://localhost:8080/currencies/exchange" -H "Content-Type: application/json" -d "{\"from\":\"BTC\",\"to\":[\"ETH\",\"SOL\"],\"amount\":100}"
 
 
-#Properties
+# Properties
 Properties are described i .properties file. 
  BE AWARE, THAT REMOVING configuration.allowedCurrencies MAKES APPLICATIONS DO CALCULATIONS ON ALL CUURRENCIES PROVIDED BY 3rd PARTY API WHICH PROBABLY WILL FAIL. APPLICATION IS NOT OPTIMIZED TO THIS CONFIGURATION
